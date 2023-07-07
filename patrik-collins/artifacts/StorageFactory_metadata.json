@@ -13,8 +13,14 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "simpleStorage",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listOfSimpleStorageContracts",
 				"outputs": [
 					{
 						"internalType": "contract SimpleStorage",
@@ -23,6 +29,43 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "sfGet",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_newSimpleStorageNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "sfStore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -62,11 +105,11 @@
 			]
 		},
 		"patrik-collins/StorageFactory.sol": {
-			"keccak256": "0x5b5e7ffd6277ca8ba4489bbefa2833e8a65087cebbc324b01aaaa5c76b17798b",
+			"keccak256": "0x0fd77ff7c51b1c3030492082851582fe3889782fa842ab685ed1c6268dbb9885",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e84797d3f29b21627d4cf1ffb39a2645792924f3c2373a23fcc0a75ea18692cb",
-				"dweb:/ipfs/QmTKBypREnVzZkXbif1qysSTjR5VyxgdYQ7D9fnLCAb6jQ"
+				"bzz-raw://8fc4e12b4004268d1b678ccce4778ff75029ae9680ff696ad92fc42625df9477",
+				"dweb:/ipfs/QmaKMmSwJA4aU4P8fqgPRcH1BEvgL32k8hKQe5HzEc3YhP"
 			]
 		}
 	},
