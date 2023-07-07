@@ -80,23 +80,10 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "sayHello",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_favoriteNumber",
+						"name": "_newNumber",
 						"type": "uint256"
 					}
 				],
@@ -134,11 +121,11 @@
 	},
 	"sources": {
 		"patrik-collins/AddFiveStorage.sol": {
-			"keccak256": "0x29a6a659304654174d46eb5ba5148c1de91f51b1efe05e4aaf16e1a4a5da3be2",
+			"keccak256": "0x78ae0514222515626ee217491f84a2896165b7362e1727aee866966d5d4c74cd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7c60f26bc4825735f006729e8577d6f254be82653e04988d1b7aaea5df413d94",
-				"dweb:/ipfs/QmY16vqLd3GHpfTYbPvSWjviubpdnuF7FigKLkEe2UVVYN"
+				"bzz-raw://1c282579dce6161e2a3c48317682299d092af07bf184ccbac579f2a60721852d",
+				"dweb:/ipfs/QmbB5Qgiy7Y7G7fuC2nRayAF4f8b26izAHkmKcDBgoTz7g"
 			]
 		},
 		"patrik-collins/SimpleStorage.sol": {
