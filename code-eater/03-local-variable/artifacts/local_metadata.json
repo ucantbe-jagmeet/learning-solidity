@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "store",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"code-eater/03-local-variable/localVariable.sol": "local"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"code-eater/03-local-variable/localVariable.sol": {
+			"keccak256": "0x44061cc5c15e1a42f3742afc2c36396fc86040911f60ae0fdecf069cf2d5d130",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c04a5679f8583cce141675c44c4c833c45805eed528587d17a3dc1e93c63c545",
+				"dweb:/ipfs/QmSNpCMpktVLf4e1uzZTiRWXeJBT7LU4NZZR9u2yqFRVNR"
+			]
+		}
+	},
+	"version": 1
+}
