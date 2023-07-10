@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					}
+				],
+				"name": "check",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"code-eater/14-bool-datatype/14-bool.sol": "Array"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"code-eater/14-bool-datatype/14-bool.sol": {
+			"keccak256": "0xb40a8c6ce3a447c886008267e833d2334555427ca895a36726d76dddb72f55ea",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b05e5e4cb02938305bdc3778d67e335d9c9766e39d5d394d4d8a4c4c5cb9a464",
+				"dweb:/ipfs/QmTKJsehFZpjTVpp6P7YwmKCBocL45kgcYApWDFNBmwBTb"
+			]
+		}
+	},
+	"version": 1
+}
