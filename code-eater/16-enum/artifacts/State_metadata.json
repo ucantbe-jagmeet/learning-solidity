@@ -1,0 +1,86 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "changeOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "lottery",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "u1",
+				"outputs": [
+					{
+						"internalType": "enum State.user",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"code-eater/16-enum/16-enum.sol": "State"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"code-eater/16-enum/16-enum.sol": {
+			"keccak256": "0x116e20c26dc28f48decc979d6e8ed258dfe01ffd3735148d02e6b5ea284b6f1a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3915d8f8b026fc9eec12bd26d321d423f7402fa04e23741135ae10da3e46f1ce",
+				"dweb:/ipfs/QmZyCxzzVMHfew1Uk6AzxSMgpiqfwVQu8zTZ9yu1vPYWEm"
+			]
+		}
+	},
+	"version": 1
+}
