@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "mem",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sto",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "student",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"code-eater/19-storage-vs-memory/1-storage-memorry.sol": "Local"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"code-eater/19-storage-vs-memory/1-storage-memorry.sol": {
+			"keccak256": "0x35712be1bce1a41b9ef21bcb6135e9be2d34a7ba9b744717fa97cfc09d357d13",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://88fb2123d0ca34b7acd42d00f362d454fd4440ef32b540a06c7129ffcb405eba",
+				"dweb:/ipfs/QmUSNWPNsgXRSt7JLLuh8yesLNUMwx6jvpsfwz543ACi11"
+			]
+		}
+	},
+	"version": 1
+}
