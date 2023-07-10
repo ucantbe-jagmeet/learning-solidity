@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					}
+				],
+				"name": "check",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"code-eater/13-if-else/13-if-else.sol": "local"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"code-eater/13-if-else/13-if-else.sol": {
+			"keccak256": "0x30299fd9fe6251b2f9ccebd209a6c1e4a1e2ff34e388cc3ea5e8104248a66bf4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7d0f63c5643bb6a54d3f29f7cbd30b370c02de14b86389ffa9a605391e47f187",
+				"dweb:/ipfs/Qmd9ojDAsm5KNV1beTSep6ZqGeVixWMerSQfsc8raqj1sK"
+			]
+		}
+	},
+	"version": 1
+}
