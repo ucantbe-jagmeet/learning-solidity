@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "payEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sendEtherAccount",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"code-eater/21-contract-bal-update/contract-update.sol": "pay"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"code-eater/21-contract-bal-update/contract-update.sol": {
+			"keccak256": "0xfcac3d92682cd25b5bf7f2c17cbfab3ac234e8759246605c1d9ea21db083f60a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://232c1fc331cffa17dc80519df144248e29b047bb4c33eb60fa1dd38fe723041d",
+				"dweb:/ipfs/QmWPummYXRrrhLV2yq8UeuHkcpQmNZETgYWmhHLUuMjkU5"
+			]
+		}
+	},
+	"version": 1
+}

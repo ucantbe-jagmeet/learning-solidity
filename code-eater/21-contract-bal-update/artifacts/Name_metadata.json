@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"code-eater/21-contract-bal-update/contract-update.sol": "Name"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"code-eater/21-contract-bal-update/contract-update.sol": {
+			"keccak256": "0x6fd66bb50f89ef599d5f454b6ca103e15cbcb042ff16ee6759aea597ad7e5cc0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://28ec86007500e23a1ae592aa577a6e8a12441ba8b6c1602dc936bc2c276b2d8f",
+				"dweb:/ipfs/QmQScVjPaNS76XpeYZXhe3J63ViR26p6SMuTXyy5LvSeE1"
+			]
+		}
+	},
+	"version": 1
+}
