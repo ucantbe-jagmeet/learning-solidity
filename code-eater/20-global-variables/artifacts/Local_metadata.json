@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getter",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "block_no",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "timestamp",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "msgSender",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"code-eater/20-global-variables/20-global-variables.sol": "Local"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"code-eater/20-global-variables/20-global-variables.sol": {
+			"keccak256": "0x1d40b8223d9d63f670d19581ecb4cc96010dabce7fab20aaaa94ba66af6bd7f4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9190ecb5fb5db29c8ba6a9313984af0c2d9451841bf7f6158fd03b8e930f4e1d",
+				"dweb:/ipfs/QmXyTTUn52JjEXhFFQavYkx4u74tG3HPsyaBSkUbpvKt8d"
+			]
+		}
+	},
+	"version": 1
+}
