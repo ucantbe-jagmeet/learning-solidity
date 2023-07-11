@@ -56,6 +56,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "random",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"stateMutability": "payable",
 				"type": "receive"
 			}
@@ -88,11 +101,11 @@
 	},
 	"sources": {
 		"code-eater/solodity-project/Lottery.sol": {
-			"keccak256": "0x356f884a98e06fe7f0b7bfa042e52dcf4424561e6e4d19e7b4b4d76dfb250ac6",
+			"keccak256": "0xc5c71faf0d1210d4b9d1b322eec1866b0115b6ae5458308024b5322e7f5ee58a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b7f466bbedd84a14f2daae5c624ca33d1957476e1cc32b29b87fe9c73b06a47c",
-				"dweb:/ipfs/QmUg4dZu1ZSPQuU14npGN7BtSyaqJCJmetyR7y38sezsPV"
+				"bzz-raw://6878b483b8d6152e7b56d4e72c3af006f4f55412b8323dfb4887a7edac9614b3",
+				"dweb:/ipfs/QmUVF3yv82Z6VVPTk3mExRikVYpq5vsG3zBVMhHiFzBDco"
 			]
 		}
 	},
