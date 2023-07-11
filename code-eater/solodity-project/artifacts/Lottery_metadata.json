@@ -88,11 +88,11 @@
 	},
 	"sources": {
 		"code-eater/solodity-project/Lottery.sol": {
-			"keccak256": "0x928cdcdd8ef1a7043c79ce720f0c458d4a3ecbb179bbfa621191c1ddf8fdedbb",
+			"keccak256": "0x356f884a98e06fe7f0b7bfa042e52dcf4424561e6e4d19e7b4b4d76dfb250ac6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b4b1345315fa090fb833c8cf5332cfdc2f3b0d74b9fa7f6d62b15465ff1ae993",
-				"dweb:/ipfs/QmUBFQQTeQTz1Wav4eHZ6ESjTGs8DUquY7GSkhxHVAU5KW"
+				"bzz-raw://b7f466bbedd84a14f2daae5c624ca33d1957476e1cc32b29b87fe9c73b06a47c",
+				"dweb:/ipfs/QmUg4dZu1ZSPQuU14npGN7BtSyaqJCJmetyR7y38sezsPV"
 			]
 		}
 	},
