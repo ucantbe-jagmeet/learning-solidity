@@ -9,5 +9,12 @@ contract Lottery{
         manager = msg.sender; // global variable
     }
 
+    receive() external payable{
+        participants.push( payable( msg.sender));
+    }
    
+   function getBalance() public view returns(uint){
+     return  address(this).balance;       
+    }
+
 }

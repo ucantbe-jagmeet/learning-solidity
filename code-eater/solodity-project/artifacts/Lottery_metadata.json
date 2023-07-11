@@ -12,6 +12,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "manager",
 				"outputs": [
 					{
@@ -41,6 +54,10 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -71,11 +88,11 @@
 	},
 	"sources": {
 		"code-eater/solodity-project/Lottery.sol": {
-			"keccak256": "0x4e4d5bee2396172a0521fd66cbaf866cbcdff1132cb403438d1fce72d0d1316f",
+			"keccak256": "0x928cdcdd8ef1a7043c79ce720f0c458d4a3ecbb179bbfa621191c1ddf8fdedbb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://30431f54d6ef3306b2e031c825930317bc9b82da9934deb857160f0ba3bc5c20",
-				"dweb:/ipfs/QmdaAmcfFNzju67vq5n1wt26K67VFax2okVr4PvLAoPt9w"
+				"bzz-raw://b4b1345315fa090fb833c8cf5332cfdc2f3b0d74b9fa7f6d62b15465ff1ae993",
+				"dweb:/ipfs/QmUBFQQTeQTz1Wav4eHZ6ESjTGs8DUquY7GSkhxHVAU5KW"
 			]
 		}
 	},
