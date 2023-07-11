@@ -7,28 +7,39 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "f1",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
+				"stateMutability": "nonpayable",
+				"type": "constructor"
 			},
 			{
 				"inputs": [],
-				"name": "f4",
+				"name": "manager",
 				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"name": "participants",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -45,7 +56,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code-eater/22-visibility/22-visibility.sol": "A"
+			"code-eater/solodity-project/Lottery.sol": "Lottery"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -59,12 +70,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"code-eater/22-visibility/22-visibility.sol": {
-			"keccak256": "0xa18084f7a1031506c2b450e6f319a6eaf618b22bb3a78d9e811b9f79d567b68f",
+		"code-eater/solodity-project/Lottery.sol": {
+			"keccak256": "0x4e4d5bee2396172a0521fd66cbaf866cbcdff1132cb403438d1fce72d0d1316f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2063f0c03c1ae935cd731ae3890cdebf6ed6808a2318dddd95557bf439327f94",
-				"dweb:/ipfs/QmT4EsJvqEH6kzm4cjfimtMbxi8q8sMHf9CFMHTjxZnQs9"
+				"bzz-raw://30431f54d6ef3306b2e031c825930317bc9b82da9934deb857160f0ba3bc5c20",
+				"dweb:/ipfs/QmdaAmcfFNzju67vq5n1wt26K67VFax2okVr4PvLAoPt9w"
 			]
 		}
 	},
