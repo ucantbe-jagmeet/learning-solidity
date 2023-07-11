@@ -69,6 +69,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "selectWinner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"stateMutability": "payable",
 				"type": "receive"
 			}
@@ -101,11 +114,11 @@
 	},
 	"sources": {
 		"code-eater/solodity-project/Lottery.sol": {
-			"keccak256": "0xc5c71faf0d1210d4b9d1b322eec1866b0115b6ae5458308024b5322e7f5ee58a",
+			"keccak256": "0x54db5ca23d8cd59051ee4dd9755ac93993b41589c4334f656e3f3cb12b32c977",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6878b483b8d6152e7b56d4e72c3af006f4f55412b8323dfb4887a7edac9614b3",
-				"dweb:/ipfs/QmUVF3yv82Z6VVPTk3mExRikVYpq5vsG3zBVMhHiFzBDco"
+				"bzz-raw://5c02c6aa31ca65f4c3dfd9b1dc21453e0a9b468b1dcadd983a1a6820358fffa2",
+				"dweb:/ipfs/QmRsC37umLUdMSyVztdhreoq4ZEfdgfWXd1BHFDHiNMbMG"
 			]
 		}
 	},
