@@ -131,6 +131,29 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "quantity",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					}
+				],
+				"name": "transferTicket",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -161,11 +184,11 @@
 	},
 	"sources": {
 		"code-eater/event-organisation/Event.sol": {
-			"keccak256": "0x8277f14a52ebb29f14e3201a3f3ccbfdec4dd22ba747fed2d9e2f9c20cae5ef2",
+			"keccak256": "0x2e2f575179f784ab204f2d977d797c9d984477626b1155dba478da972448e2a7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://118d35f737ef18d0dd96da6df8b0f350f2ac9b155ac907dc9178ccf2b39ba8cf",
-				"dweb:/ipfs/QmbZqRrKF87Vi1RfYYR7eUJxDs7Bp6LqJyStrmnyiuz5PE"
+				"bzz-raw://66b11a6568633d521d16202da5a4b287a331de2ab7ae8e99a8433f1ccb7c7af2",
+				"dweb:/ipfs/QmRxdktExwmLvyJfgxrQN1muKYN2GfdUihbgyYgzAteQFV"
 			]
 		}
 	},
