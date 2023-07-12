@@ -8,6 +8,34 @@
 			{
 				"inputs": [
 					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "date",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "price",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "ticketCount",
+						"type": "uint256"
+					}
+				],
+				"name": "createEvent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
@@ -115,11 +143,11 @@
 	},
 	"sources": {
 		"code-eater/event-organisation/Event.sol": {
-			"keccak256": "0x5a9a7623a0286dda7b40908830481ec9f31ac79d2346e566fc1ae159bb25a7a5",
+			"keccak256": "0x23c22a9cce55aefc14728de4e2018c3325d412c1eb26cfa600cdbbb28d7aa8ba",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://387bbf717648d05cf5c25d730cf48f9feadc1a9958644a1420eca442dcac8a34",
-				"dweb:/ipfs/QmX75jAXpWyB6karbGsZZ8ERphadRocK5abtTmLLySJrFu"
+				"bzz-raw://8ade2e14366e3e66d671096dda987c584c0794d8912a7e1116fd27ae6fd04606",
+				"dweb:/ipfs/QmcypkYUasKGnNm9SXE8JDwrX58zeQPWy4oRFf3GDqdauw"
 			]
 		}
 	},
