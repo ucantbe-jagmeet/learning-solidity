@@ -51,4 +51,9 @@
          user.transfer(contributors[msg.sender]);
          contributors[msg.sender] = 0;
      }
+
+     modifier onlyManager(){
+         require(msg.sender == manager, "Only manager can call this function");
+         _;
+     } 
  }
