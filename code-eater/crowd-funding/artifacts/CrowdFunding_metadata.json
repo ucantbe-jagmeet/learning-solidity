@@ -55,6 +55,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "getContractBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "manager",
 				"outputs": [
 					{
@@ -154,11 +167,11 @@
 	},
 	"sources": {
 		"code-eater/crowd-funding/CrowdFunding.sol": {
-			"keccak256": "0x97c8b726695a76bb942688ddae30d6f2e93ca519ba7f9b305f67532b1ef408e5",
+			"keccak256": "0x597a5e67193638c8d5356e7b40e85151901f31b6072ed360a7ffd4defbbbc2d6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://dc86943c4cf83615de30538b23aaa555c0cb94dbdff500dedc71c086f78756ef",
-				"dweb:/ipfs/QmPphKyWWUAgvaq1Vp954oSwFrL36DqsteqmrJciZdK7WK"
+				"bzz-raw://bd2e527da72b9b5afe10def964298d1337761bbbe0a8f11001f8e722f588d898",
+				"dweb:/ipfs/QmeAD2eGhezFGGf4JwQaHELSV97BrxrRAzjNVrg6WuskB4"
 			]
 		}
 	},
