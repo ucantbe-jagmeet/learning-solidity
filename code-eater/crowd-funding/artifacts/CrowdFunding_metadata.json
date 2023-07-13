@@ -41,6 +41,29 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_description",
+						"type": "string"
+					},
+					{
+						"internalType": "address payable",
+						"name": "_recipient",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "createRequests",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "deadline",
 				"outputs": [
@@ -64,6 +87,19 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_requestNo",
+						"type": "uint256"
+					}
+				],
+				"name": "makePayment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -146,7 +182,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "request",
+				"name": "requests",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -196,6 +232,19 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_requestNo",
+						"type": "uint256"
+					}
+				],
+				"name": "voteRequest",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -226,11 +275,11 @@
 	},
 	"sources": {
 		"code-eater/crowd-funding/CrowdFunding.sol": {
-			"keccak256": "0xee39037bd6f77dd09a5b4f58e08fb36eb107025f869d55cc3b504afc636a3010",
+			"keccak256": "0xe05a351155bfa08d88bdcf8816bcd6dc08c6fcbd7f218de468f483ee7f369cf6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e86c01580b5ad291b676199948fb64371f3d796666d7beaa528d731656871f7b",
-				"dweb:/ipfs/QmYt6uvEu5B1RBUdcrxKco2S4FNf7P1RZgZ4e9DVNFMa5S"
+				"bzz-raw://7cd4465c3a9fec8d80dd47ac33ee028bad7066768241f20f8b7c0bce858ee45a",
+				"dweb:/ipfs/QmYA4B6NpiEaA3CxukUUFnUJvSFbcKreQGudQtAwtwwr7f"
 			]
 		}
 	},
