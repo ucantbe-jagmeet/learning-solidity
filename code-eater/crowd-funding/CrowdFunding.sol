@@ -10,6 +10,17 @@
      uint public raisedAmount;
      uint public noOfContributors;
 
+     struct Request{
+         string description;
+         address payable recipient;
+         uint value;
+         bool completed;
+         uint noOfVoters;
+         mapping( address => bool) voters;
+     }
+     mapping(uint => Request) public request;
+     uint public numRequests;
+
      constructor(uint _target, uint _deadline) {
          target = _target;
          deadline = block.timestamp + _deadline;
