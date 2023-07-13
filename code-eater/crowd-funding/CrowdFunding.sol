@@ -16,4 +16,16 @@
          minimumContribution = 100 wei;
          manager = msg.sender;
      }
+
+     function sendEth() public payable{
+         require( block.timestamp < deadline, "Deadline has passed");
+         require( msg.value >=  minimumContribution, "Minimum contribution is not met");
+
+         if(contributors[msg.sender] == 0){
+             noOfContributors++;
+         }
+
+         contributors[msg.sender]+=msg.value;
+         raisedAmount+=msg.value;
+     }
  }
