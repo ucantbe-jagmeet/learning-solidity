@@ -9,37 +9,26 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_x",
 						"type": "uint256"
 					}
 				],
-				"name": "roll_no",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "x",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "keys",
+						"name": "",
 						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "value",
-						"type": "string"
 					}
 				],
-				"name": "setter",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -56,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code-eater/17-mapping/17-mapping.sol": "Local"
+			"code-eater-web3/demo.sol": "demo"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -70,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"code-eater/17-mapping/17-mapping.sol": {
-			"keccak256": "0x64bc02bc64b281034d0c0810cb39f8e7a055356966367375f49c58b5a2dc575b",
+		"code-eater-web3/demo.sol": {
+			"keccak256": "0x7dea2e72e78b59c53d67a6b1a4801e2f2e31131d2845ff3302203010db9c3eba",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2c596632262312191fee2658b03202b4790e02565b7dc558bc36e3a4ea6e788b",
-				"dweb:/ipfs/Qmb9mWPxou7AvgatgrqQ8cWYuvG2gdkEZ7AJtC23Tbrejk"
+				"bzz-raw://76dca7b4e3ce8aacf48960becdfee5b5446a04baa6ab7de3c4ab98ef4dd7de7b",
+				"dweb:/ipfs/QmQeFkJGBZZschiLY7YbD958G3yNaSdtCsftag92bzUABS"
 			]
 		}
 	},
