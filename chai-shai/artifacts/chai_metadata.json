@@ -27,6 +27,41 @@
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getMemos",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "message",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "timestamp",
+								"type": "uint256"
+							},
+							{
+								"internalType": "address",
+								"name": "from",
+								"type": "address"
+							}
+						],
+						"internalType": "struct chai.Memo[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -57,11 +92,11 @@
 	},
 	"sources": {
 		"chai-shai/demo.sol": {
-			"keccak256": "0x0b9107a436bfa1342fa8bb6741a7ec6d9cccd67f43a97f9b90e35e033554e291",
+			"keccak256": "0x07c409bd90e17a5e318190d5502a5a32a839daf4a8edc6060744b57d955923a0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://22c0c9d72ee3c28b38d6da4912c8f47e205a5b54d2695cbc7196a9fca4c991cf",
-				"dweb:/ipfs/Qmbk3puXoStE4USnbHnocL7hg2RZdmSBntEDvsDvDkST84"
+				"bzz-raw://4d44509976e79d44bdde9d3d723714b3832e4c86495abc877be9ece9a8587489",
+				"dweb:/ipfs/QmcYnhqg9WCxSJNVeid2cVe1EAfUziXMVRAQecx71hJfDS"
 			]
 		}
 	},

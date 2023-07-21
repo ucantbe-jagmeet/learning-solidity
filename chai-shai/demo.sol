@@ -21,4 +21,7 @@ contract chai{
         owner.transfer(msg.value);
         memos.push( Memo(name, message, block.timestamp, msg.sender));
     }
+    function getMemos() public view returns(Memo[] memory){
+       return  memos;
+    }
 }
