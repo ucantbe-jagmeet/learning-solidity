@@ -4,7 +4,31 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
+				"name": "buyChai",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +57,11 @@
 	},
 	"sources": {
 		"chai-shai/demo.sol": {
-			"keccak256": "0xc158187934ffdf34a93a64086d2bc9a452e94de4cd565c32ffb0c13eecaf057f",
+			"keccak256": "0x0b9107a436bfa1342fa8bb6741a7ec6d9cccd67f43a97f9b90e35e033554e291",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://05afe63806b37873c16d3e026b73675bccea71d25105e331534e36ebeb1d7608",
-				"dweb:/ipfs/Qmc8vutGdjnKhRgd3jrHxBisnB8bw2k1CzGf8yqutHB32M"
+				"bzz-raw://22c0c9d72ee3c28b38d6da4912c8f47e205a5b54d2695cbc7196a9fca4c991cf",
+				"dweb:/ipfs/Qmbk3puXoStE4USnbHnocL7hg2RZdmSBntEDvsDvDkST84"
 			]
 		}
 	},
