@@ -11,6 +11,13 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fund1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -41,11 +48,11 @@
 	},
 	"sources": {
 		"patrik-collins/fund-me/FundMe.sol": {
-			"keccak256": "0xb13ab3b16fbcc05080b0a904be5b7b1a6ca64ce9462659deb6d649810864141e",
+			"keccak256": "0x51ba671bc6f1931be02ed5bba1af55687877a0ea0f40b58678db094fd57ef9d6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9a2a6e2378eefe0277b4b198d34368b7b253b580643a80c657ce23737599fc79",
-				"dweb:/ipfs/QmZafMisbcyACr31ytuiCEvg5Q6pUjf7M7fa1ZxRBNLGAB"
+				"bzz-raw://feb85c80ed399b79badda34b0f373be1b331a5d274e99fc38246d40d60c16a33",
+				"dweb:/ipfs/QmcXUHvD6dFpNnWFxD46wTtDXF6hYS85i6HA12eCAmftjT"
 			]
 		}
 	},
