@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "age",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "number",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"code-eater-2/02-state-variable/state.sol": "State"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"code-eater-2/02-state-variable/state.sol": {
+			"keccak256": "0xe130656ddfa3771bb598df1d12e2b35408ff76a34470a75b067e4aeecf613474",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5926148137888c094a6b3a6b5c47c3d79782a6a14a9f08c5c26e7b0fe04b0409",
+				"dweb:/ipfs/QmYLoLWHhAJZ1apk9Rzrq1t9Jec9zv7hkAGMuMq1FPaW7h"
+			]
+		}
+	},
+	"version": 1
+}
