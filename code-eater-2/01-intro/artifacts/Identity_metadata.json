@@ -7,14 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "fund",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
+				"stateMutability": "nonpayable",
+				"type": "constructor"
 			},
 			{
 				"inputs": [],
-				"name": "minimumUsd",
+				"name": "getAge",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -23,6 +21,26 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setAge",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -39,7 +57,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"patrik-collins/fund-me/FundMe.sol": "FundMe"
+			"code-eater-2/01-intro/first.sol": "Identity"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -53,12 +71,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"patrik-collins/fund-me/FundMe.sol": {
-			"keccak256": "0xd51b148e759bab013ebbc0a32e305d1c22edec7d8ad7ff71c85edb69d81b4a8e",
+		"code-eater-2/01-intro/first.sol": {
+			"keccak256": "0x1479a5e3e28b89eef583943f1a27c48d9208e18cd9db8e32a9d8e1fb96422f20",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f3416ac2c498795707cd609e4bd5945eb587588cf80f3281bbefbb5da7abf054",
-				"dweb:/ipfs/QmeQ48KYXbaegpMnw9HphdrdtBAGt99mfqe3UoFDzf5SUZ"
+				"bzz-raw://dfe53b173926c6d8ec40c05541ef314872e7c6bc6a362fe4386ad5c3a3ccd509",
+				"dweb:/ipfs/QmUYgXX3SsxnrFoSFynq4XM2FPJUTVyQSDUVZfv95uDKma"
 			]
 		}
 	},

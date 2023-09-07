@@ -1,9 +1,14 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.17;
+pragma solidity ^0.8.18;
 
 contract FundMe {
-    function fund()  public{
+
+    uint256 public minimumUsd = 5;
+
+    function fund()  public payable{
+        require(msg.value >= minimumUsd, "didn't sent enough ETH"); ///1e18 = 1ETH
+            
     }
-    function fund1()  public{
-    }
+    // function withdraw()  public{
+    // }
 }
