@@ -4,7 +4,47 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "initialMessage",
+						"type": "string"
+					}
+				],
+				"name": "Inbox",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "message",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "newMessage",
+						"type": "string"
+					}
+				],
+				"name": "setMessage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +73,11 @@
 	},
 	"sources": {
 		"by-stepher-grinder/solidity/01-intro/main.sol": {
-			"keccak256": "0xc3302f1efbe706c70a4bd514136b9e9ecbcf725031dcce7622f30274f8f0d14d",
+			"keccak256": "0x7f950336edfd9ff631fbab0d38a6efe8d892bf2fc37b4c57c1fa015696ac6ead",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ab73d59ccab14d22c8c6bd458f897680dd5b0ab773544bee5117406b03e0fca4",
-				"dweb:/ipfs/QmZQKuQpQx9P7kb1DLdtb15G8tUnJYLpnBHJUJaGNeJt32"
+				"bzz-raw://53b0ec602405daa2e386489547d30ad2b639cc415aff0cfc6693b341fabd78f4",
+				"dweb:/ipfs/QmW3WXoNcVoq9HQYfiM9KuExP8K4gdXxpPVG38xSvnUmG4"
 			]
 		}
 	},
