@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "calculateFactorial",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"learning-dsa/02-factorial/02-factorial.sol": "FactorialCalculator"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"learning-dsa/02-factorial/02-factorial.sol": {
+			"keccak256": "0xea0bd25dc13345051a82caaf61cf0f161a0b327812c150870aa043c26ae96ac7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8cb046cc573a1ced92e18026577dbc09b83acfd2801a1c0cde84b54a5b42a5c6",
+				"dweb:/ipfs/QmbH8trGSgHjRdFwYJiRFwAWhyax2SUDrXEm21M5vGppGe"
+			]
+		}
+	},
+	"version": 1
+}
