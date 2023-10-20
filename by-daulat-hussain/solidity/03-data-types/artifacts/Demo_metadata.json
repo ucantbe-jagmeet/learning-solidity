@@ -268,11 +268,11 @@
 	},
 	"sources": {
 		"by-daulat-hussain/solidity/03-data-types/demo.sol": {
-			"keccak256": "0xa06e56683266a453b81acc6fbe772e2e8ce34973dbb004ddef6808bcc200de66",
+			"keccak256": "0x12dbb79236877c6d0ddb8754d550b10f274bb600ea702e16317c8ea9c6cf04f1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://38f75399cbd588838ab0b0ab0cbcf510fa5285cad89133dcbe1b1123f1a78870",
-				"dweb:/ipfs/QmNZhgTqxbw8rvngqSbqGHJpTqHLHfiK6HFaj2mw3ehcDJ"
+				"bzz-raw://f8dd0c76b07b3fa234bc68bb0758558f3fc0463fe9c8388f7b5d5af22da86886",
+				"dweb:/ipfs/QmPjgy6GxMYZ9Mgew9rLTRn4t5sM1eZmTP7WMsKfHuFq6k"
 			]
 		}
 	},

@@ -27,7 +27,7 @@ contract Demo{
     address public add1;
     address public addr=0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
 
-    //address
+    //default type
     bool public defaultBool; // false
     uint public number; // 0
     int public defInt; // 0
