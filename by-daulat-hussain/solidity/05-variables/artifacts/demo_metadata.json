@@ -6,56 +6,20 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "defaultBytes",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "bytes",
-						"name": "",
-						"type": "bytes"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "defaultBytesNo",
-				"outputs": [
-					{
-						"internalType": "bytes",
-						"name": "",
-						"type": "bytes"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "defaultNum",
-				"outputs": [
+						"internalType": "string",
+						"name": "_text",
+						"type": "string"
+					},
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_no",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "defaultText",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
+				"stateMutability": "nonpayable",
+				"type": "constructor"
 			},
 			{
 				"inputs": [],
@@ -81,6 +45,24 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_text",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_no",
+						"type": "uint256"
+					}
+				],
+				"name": "update",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -112,11 +94,11 @@
 	},
 	"sources": {
 		"by-daulat-hussain/solidity/05-variables/demo.sol": {
-			"keccak256": "0x3cbd9eede8fcc947e6468f9dc1b607eb31db8f2589b2277e0ca4511437ffc816",
+			"keccak256": "0x56011c277d7b152e19001d423a19f8b5189a9e0035c15cd72a3c441131379698",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://07a59b368456de4458054e85bef4f43f57214653e22ab32ec1ed40175cf3f9ea",
-				"dweb:/ipfs/QmPxb2dVmeuRE9R53TLMP28eK67FXKwhmbuj83t6Jv2iwr"
+				"bzz-raw://7b677c150531b9df5c799ec10b80c2e44583e95b11bcce691bfcd5ec1c090a9e",
+				"dweb:/ipfs/QmbFqf7o21gvtvfMHshvuNgoqGRsEA7HovLrRG5NrgxXME"
 			]
 		}
 	},
