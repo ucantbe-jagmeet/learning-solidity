@@ -10,6 +10,16 @@
 				"name": "local",
 				"outputs": [
 					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
@@ -60,11 +70,11 @@
 	},
 	"sources": {
 		"by-daulat-hussain/solidity/06-local-var/demo.sol": {
-			"keccak256": "0xedcd42ea94884b98d106bf1151c50d8584db1f59c1b159e63ded3dc0834d08b6",
+			"keccak256": "0xe776438a4353074b55f275fc1d989c70a138af222ba50ebd63554d5b4cf92d32",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fdf83d3bf311ff286652f3b05bb3dbf7c32310eeb5820b3433e9e7d97495e415",
-				"dweb:/ipfs/QmP7ep2ajZh8a3eoMjQXBbo3tSkCx3T3aS9mNdZmqxL5GW"
+				"bzz-raw://438080e8e6e82dca1e4b385e8f20c09313de152f6339465df920c341bdd14c35",
+				"dweb:/ipfs/QmXqdedTCiaj7ngmsDSaJeBdGyxfirSuiU1m4eta1c7sWo"
 			]
 		}
 	},
