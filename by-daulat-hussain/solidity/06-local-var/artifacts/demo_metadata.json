@@ -7,35 +7,95 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "local",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "difficulty",
 				"outputs": [
 					{
 						"internalType": "address",
 						"name": "",
 						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "myNumber",
+				"name": "gaslimit",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myblockhash",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "nowOn",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "number",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -70,11 +130,11 @@
 	},
 	"sources": {
 		"by-daulat-hussain/solidity/06-local-var/demo.sol": {
-			"keccak256": "0xe776438a4353074b55f275fc1d989c70a138af222ba50ebd63554d5b4cf92d32",
+			"keccak256": "0x1c24e6fb9adaef3a964d7a14e5f65c7f587fc3613c1dac27ebd47b75b805457e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://438080e8e6e82dca1e4b385e8f20c09313de152f6339465df920c341bdd14c35",
-				"dweb:/ipfs/QmXqdedTCiaj7ngmsDSaJeBdGyxfirSuiU1m4eta1c7sWo"
+				"bzz-raw://0a75aba12bda9b23300ac702411bd5d749e9c2c20cda2163955a3850ccedc280",
+				"dweb:/ipfs/QmUYomYXDoPftDwac19BuFjEzdhRm2KfvDR1Tix4cVUgvi"
 			]
 		}
 	},
