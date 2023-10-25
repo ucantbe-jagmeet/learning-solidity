@@ -2,14 +2,14 @@
 pragma solidity ^0.8.0;
 
 contract demo {
-    uint public numberOfTicket;
-    uint public ticketPrice;
-    uint public ticketId;
+    uint  numberOfTicket;
+    uint  ticketPrice;
+    uint ticketId;
     uint public totalAmount;
-    uint public startAt;
-    uint public endAt;
-    uint public timeRange;
-    string public message= "Buy your first Event Ticket";
+    uint  startAt;
+    uint  endAt;
+    uint  timeRange;
+    string  message= "Buy your first Event Ticket";
 
     constructor(uint _ticketPrice) {
         ticketPrice = _ticketPrice;

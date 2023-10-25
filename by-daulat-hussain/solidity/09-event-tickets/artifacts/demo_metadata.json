@@ -37,97 +37,6 @@
 			},
 			{
 				"inputs": [],
-				"name": "endAt",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "message",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "numberOfTicket",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "startAt",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "ticketId",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "ticketPrice",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "timeRange",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "totalAmount",
 				"outputs": [
 					{
@@ -168,11 +77,11 @@
 	},
 	"sources": {
 		"by-daulat-hussain/solidity/09-event-tickets/demo.sol": {
-			"keccak256": "0xa2af1694446c5da2a4de938765528aeaf75d7398c5f7314876b849bb65e5f9e7",
+			"keccak256": "0x596e9d62667c94f267a35ad81007e90cc9fac2eb2ad0770d4d20ac7e3bc02487",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://dddff682a80b4bb6d370850894c4abc81c692fe00390c38991ffb6975bdf1a18",
-				"dweb:/ipfs/QmcG4kkcL8TpaTgR6c9DMBHhBgENdYetSf2usTWQcyAEbL"
+				"bzz-raw://724e4f34121d7c334db32d7723549ad13ea3bebeba5a926324545d8f1201fa5e",
+				"dweb:/ipfs/QmTeRUEhkSWPwUJT11Xb4RmQX5UnFpcrfoad9cm7BiTAvk"
 			]
 		}
 	},
