@@ -6,6 +6,36 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_ticketPrice",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "buyTicket",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "endAt",
 				"outputs": [
@@ -59,6 +89,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "ticketId",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "ticketPrice",
 				"outputs": [
 					{
@@ -72,7 +115,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "timestamp",
+				"name": "timeRange",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -125,11 +168,11 @@
 	},
 	"sources": {
 		"by-daulat-hussain/solidity/09-event-tickets/demo.sol": {
-			"keccak256": "0xb7952a3562d172ba12599b67cd1ef6486009ef7e913bd59839594e1d3850c5e8",
+			"keccak256": "0xa2af1694446c5da2a4de938765528aeaf75d7398c5f7314876b849bb65e5f9e7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7fe0ee69310b8940507425ba03e5564eaacacd8c0e553da2b603c1fd17297376",
-				"dweb:/ipfs/QmVBJRNfWJELY524xD8MAJ56Yi8ShqcSXiobX2mtnRFXp6"
+				"bzz-raw://dddff682a80b4bb6d370850894c4abc81c692fe00390c38991ffb6975bdf1a18",
+				"dweb:/ipfs/QmcG4kkcL8TpaTgR6c9DMBHhBgENdYetSf2usTWQcyAEbL"
 			]
 		}
 	},
