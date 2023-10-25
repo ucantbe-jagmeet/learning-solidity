@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "MY_ADD",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getConstant",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"by-daulat-hussain/solidity/10-constant/demo.sol": "Demo"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"by-daulat-hussain/solidity/10-constant/demo.sol": {
+			"keccak256": "0x2e480bfbe08132a4ddb80f8454d3aa4eec4d7c33e8d7a1dc8c631ae8083cf144",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3fc9c437650006a0a98ff1ceeea61b675d5e181c4e5f48c1a67d6891cdb6dbad",
+				"dweb:/ipfs/QmUZrERkdEaobZLUDfPoBnCFaBYEjspBVjsChTG4yYpXCP"
+			]
+		}
+	},
+	"version": 1
+}
