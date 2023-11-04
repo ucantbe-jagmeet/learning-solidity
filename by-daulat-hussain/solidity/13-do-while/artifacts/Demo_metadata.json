@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "loop",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"by-daulat-hussain/solidity/13-do-while/demo.sol": "Demo"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"by-daulat-hussain/solidity/13-do-while/demo.sol": {
+			"keccak256": "0x51698313d77fba0653a86b16d2eb6f2fccda119297e01336f6fb19a51b9bd084",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://34e64e4f6c6d09c61c0ba02c28b09c3e8e4fee4563de9d4f8c4c15f7fffa0c0e",
+				"dweb:/ipfs/QmPrVcQtzckJiUzR8hj5s7LNbEdakFPSN2rWpVaq6igerJ"
+			]
+		}
+	},
+	"version": 1
+}
