@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "loop",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"by-daulat-hussain/solidity/14-for-loop/demol.sol": "demo"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"by-daulat-hussain/solidity/14-for-loop/demol.sol": {
+			"keccak256": "0xb20a90a7956d87282446ccc2c5d1e66df60810bc6c051af07cfa4eea4525bb44",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://832c273bca57f9370463151bb1571325728c7a9d56a72a8cd6d0c09d12cf0673",
+				"dweb:/ipfs/QmbSVQRwcvKdADMXwp21eMZUBDdZJZN6SHAYd4RWaAajsB"
+			]
+		}
+	},
+	"version": 1
+}
