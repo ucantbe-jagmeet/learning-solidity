@@ -6,6 +6,11 @@ contract demo {
         require(_input >=0, "invalid uint");
         require(_input <=255, "invalid uint");
 
-        return "Input is uint";
+        return "Input is uint8";
+    }
+
+    function Odd(uint _input) public view returns (bool){
+        require(_input %2 !=0);
+        return true;
     }
 }
