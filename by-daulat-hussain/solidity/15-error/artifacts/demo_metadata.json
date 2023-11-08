@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_input",
+						"type": "uint256"
+					}
+				],
+				"name": "checkInput",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"by-daulat-hussain/solidity/15-error/demo.sol": "demo"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"by-daulat-hussain/solidity/15-error/demo.sol": {
+			"keccak256": "0x8a5207c37a14534b05bcf28047f98084a9ad82fa0a7a7849b0a398a5f285e2f4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://13a4e728bf7ddd6af1fa5eb6c2198feba0eb7504b407606c1735fb4669f9ee40",
+				"dweb:/ipfs/QmcEg7JpmRVPS8JugaU7dNVK7dAdbHQ6417HQFo4aDWcwN"
+			]
+		}
+	},
+	"version": 1
+}
