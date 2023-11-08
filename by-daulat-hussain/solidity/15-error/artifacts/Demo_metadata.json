@@ -21,7 +21,7 @@
 						"type": "bool"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
@@ -40,7 +40,7 @@
 						"type": "bool"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
@@ -59,7 +59,7 @@
 						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -76,7 +76,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"by-daulat-hussain/solidity/15-error/demo.sol": "demo"
+			"by-daulat-hussain/solidity/15-error/demo.sol": "Demo"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -91,11 +91,11 @@
 	},
 	"sources": {
 		"by-daulat-hussain/solidity/15-error/demo.sol": {
-			"keccak256": "0x3c34122db4af4c87d68f297a50439645f125af549f2128618149264af9cf4d21",
+			"keccak256": "0x5c59d33853f073c1ee78d610f839f026b870aaae482197849a4b2873bc13879c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5d058ca0e7969744c63c9ef4505394d25c1a22165993da38bd17b14579942e55",
-				"dweb:/ipfs/QmX7SG6d48fPgdT3F1JurJChChs2eKuNYhgnR63sMAVJrt"
+				"bzz-raw://3bc6d29843dcd000c689a9e2bbeedd9f2e1a775061a7474fbc4b80e4e0f86caf",
+				"dweb:/ipfs/QmfLf1oLqUTR6VrEVqWJviqeqShYsyrmYTThmLjE1WaeHy"
 			]
 		}
 	},
