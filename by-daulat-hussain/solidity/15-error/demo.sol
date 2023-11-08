@@ -13,4 +13,8 @@ contract demo {
         require(_input %2 !=0);
         return true;
     }
+    function Even(uint _input) public view returns (bool){
+        require(_input %2 ==0);
+        return true;
+    }
 }

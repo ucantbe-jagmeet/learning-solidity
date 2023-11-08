@@ -13,6 +13,25 @@
 						"type": "uint256"
 					}
 				],
+				"name": "Even",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_input",
+						"type": "uint256"
+					}
+				],
 				"name": "Odd",
 				"outputs": [
 					{
@@ -72,11 +91,11 @@
 	},
 	"sources": {
 		"by-daulat-hussain/solidity/15-error/demo.sol": {
-			"keccak256": "0xd76f039283708cad19de9ab54131cdf7b1d67adc678b01ca96ccb9f893553a6c",
+			"keccak256": "0x6f8067a7c53bca4ed67f0ccf5c1c139f355710e1c50b2024ba55322fee1590f3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b254e25222bc2e8e791a7fbb76a74656eb3b75bc2f4ce178407dc2d992d2057c",
-				"dweb:/ipfs/Qmf6Sbnvu6mA1Di4zEtu6SmkmkT2A6NbhTdxkU1aiV2Zqt"
+				"bzz-raw://000729569ee91c79dd83f3e6bdbb70e5164c905e75a1c7e560a9c2a4242c6619",
+				"dweb:/ipfs/QmcZgJXghHsb4K5snkXEFw4FFj4GwFAv3tUvZ8knz9ePQJ"
 			]
 		}
 	},
