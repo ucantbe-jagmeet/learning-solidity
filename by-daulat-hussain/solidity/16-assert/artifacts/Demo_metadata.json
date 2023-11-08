@@ -22,6 +22,32 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getResult",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "result",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -52,11 +78,11 @@
 	},
 	"sources": {
 		"by-daulat-hussain/solidity/16-assert/demo.sol": {
-			"keccak256": "0x7b8cea708be744a7578bef386d5a028a23e57266dca270e57d8b8cf89984dbc9",
+			"keccak256": "0x4858fef914842f41ad668b48ef0883699c66f7470c0d4d48d5ec3acf8e1477dd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://afb552a4dbf9588d787d0963efdc004448dd087edc958b2695ff283c6e1f292b",
-				"dweb:/ipfs/QmVpMbydsk6aKxyMFUAks7zNHPL8yocZgHXRx42MWvoygf"
+				"bzz-raw://1dbb9331bc3545843613fa715462c455cb633af7d1fdb6c849b186fc1f40ccb0",
+				"dweb:/ipfs/QmPCZCidXteUCfe7atB1x1Wbkg4Xjpf2ZkxNHNyMi9ukDY"
 			]
 		}
 	},
