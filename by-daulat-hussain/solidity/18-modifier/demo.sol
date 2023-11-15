@@ -25,4 +25,8 @@ contract Demo {
         _;
     }
 
+    function changeOwner(address _newOwner) public onlyOwner validateData(_newOwner) {
+        owner = _newOwner;
+    }
+
 }
