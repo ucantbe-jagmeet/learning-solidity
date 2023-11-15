@@ -29,4 +29,19 @@ contract Demo {
         owner = _newOwner;
     }
 
+    modifier noReentrancy(){
+        require(!locked, "No Reenterancy");
+        locked  = true;
+        _;
+        locked  = false;
+    }
+
+    function decrement(uint i) public noReentrancy {
+        x-=1;
+
+        if(i > 1){
+            decrement(i - 1);
+        }
+    }
+
 }
