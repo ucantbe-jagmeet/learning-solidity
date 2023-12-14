@@ -17,11 +17,14 @@ contract Demo {
         favoriteNumber = favoriteNumber + 1;
     }
     
-
+    // view
     function retrieve( ) public view returns( uint) {
         return favoriteNumber;
     }
-
-
+    
+    // pure
+    function retrievePure( ) public pure returns( uint) {
+        return 19;
+    }
 
 }
