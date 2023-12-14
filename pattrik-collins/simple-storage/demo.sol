@@ -48,4 +48,9 @@ contract Demo {
         listOfPeople.push( Person(_favoriteNumber, _name) );
     }
 
+    // calldata -> It is a temporary variable that can not be modified 
+    // memory -> It is a temporary variable that can be modified 
+    // storage -> It is a Permanent variable that can be modified 
+
+
 }
