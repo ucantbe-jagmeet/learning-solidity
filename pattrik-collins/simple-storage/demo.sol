@@ -8,14 +8,11 @@ contract Demo {
     
     // uint[] listOfFavoriteNumbers;  // array declaration
 
-    struct Person {
-        uint favNumber;
-        string name;
-    }  // Structure Declaration
 
-    Person public pat = Person(7, 'Pat'); 
-    Person public mariah = Person({ favNumber: 202, name:'Mariah'}); 
-    Person public jon = Person({ favNumber: 99, name:'Jon'}); 
+    // Person public pat = Person(7, 'Pat'); 
+    // Person public mariah = Person({ favNumber: 202, name:'Mariah'}); 
+    // Person public jon = Person({ favNumber: 99, name:'Jon'}); 
+
 
     // string favoriteNumberText = "88/ eighty-eight";
 
@@ -23,19 +20,32 @@ contract Demo {
 
     // bytes32 favoriteBytes32 = 'cat'; // can be hex value like  0x2aser25fs or something else
 
-    function store(uint256 _favoriteNumber ) public {
-        favoriteNumber = _favoriteNumber ;
-        favoriteNumber = favoriteNumber + 1;
-    }
+    // function store(uint256 _favoriteNumber ) public {
+    //     favoriteNumber = _favoriteNumber ;
+    //     favoriteNumber = favoriteNumber + 1;
+    // }
     
     // view
-    function retrieve( ) public view returns( uint) {
-        return favoriteNumber;
-    }
+    // function retrieve( ) public view returns( uint) {
+    //     return favoriteNumber;
+    // }
     
     // pure
-    function retrievePure( ) public pure returns( uint) {
-        return 19;
+    // function retrievePure( ) public pure returns( uint) {
+    //     return 19;
+    // }
+
+    struct Person {
+        uint favNumber;
+        string name;
+    }  // Structure Declaration
+
+    Person[] public listOfPeople;    
+
+    function addPerson(uint _favoriteNumber, string memory _name) public {
+        // Person memory newPerson = Person(_favoriteNumber, _name);
+        // listOfPeople.push(newPerson)
+        listOfPeople.push( Person(_favoriteNumber, _name) );
     }
 
 }
