@@ -2,18 +2,29 @@
 pragma solidity ^0.8.0; // solidity versions
 
 contract Demo {
-    struct Person{
-        uint favoriteNumber;
-        string name;
+    // struct Person{
+    //     uint favoriteNumber;
+    //     string name;
+    // }
+
+    // Person[] public listOfPeople;
+
+     mapping(address => uint) public myMap;
+
+    function get(address _addr) public view returns (uint) {
+        // Mapping always returns a value.
+        // If the value was never set, it will return the default value.
+        return myMap[_addr];
     }
 
-    Person[] public listOfPeople;
+    function set(address _addr, uint _i) public {
+        // Update the value at this address
+        myMap[_addr] = _i;
+    }
 
-    mapping( string => uint) public nameToFavoriteNumber;
-
-    function addPerson(string memory _name, uint _favoriteNumber) public {
-        listOfPeople.push( Person(_favoriteNumber, _name) );
-        nameToFavoriteNumber[_name] = _favoriteNumber ; // to check whose belongs to given favorite number 
+    function remove(address _addr) public {
+        // Reset the value to the default value.
+        delete myMap[_addr];
     }
 
 }
