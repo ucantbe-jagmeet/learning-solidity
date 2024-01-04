@@ -15,10 +15,9 @@ contract Demo {
     }
      // function withdraw() public {}
 
-    function getPrice() public {}
-    function getConversionRate() public {}
+    function getVersion() public {}
 
-    function getVersion() public view returns (uint256){
+    function getPrice() public view returns (uint256){
         // Address
         // ABI 
         AggregatorV3Interface priceFeed = AggregatorV3Interface(0x694AA1769357215DE4FAC081bf1f309aDC325306);
@@ -27,6 +26,16 @@ contract Demo {
         // Price of Eth in terms of USD
         // 2000.00000000 
         return uint256(price * 1e10);
+    }
+
+    function getConversionRate(uint ethAmount) public view returns (uint ) {
+
+        // 1Eth worth ?? 
+        // 2000_000000000000000 >> it does not contains decimal by denoted by underscore only 
+
+        uint ethPrice = getPrice();
+        uint ethAmountInUsd = (ethPrice * ethAmount) / 1e18;
+        return ethAmountInUsd;
     }
    
 }
