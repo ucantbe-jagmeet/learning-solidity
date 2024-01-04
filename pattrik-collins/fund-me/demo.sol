@@ -19,8 +19,14 @@ contract Demo {
     function getConversionRate() public {}
 
     function getVersion() public view returns (uint256){
+        // Address
+        // ABI 
         AggregatorV3Interface priceFeed = AggregatorV3Interface(0x694AA1769357215DE4FAC081bf1f309aDC325306);
-        return priceFeed.version();
+        (, int256 price,,,) = priceFeed.latestRoundData();
+
+        // Price of Eth in terms of USD
+        // 2000.00000000 
+        return uint256(price * 1e10);
     }
    
 }
