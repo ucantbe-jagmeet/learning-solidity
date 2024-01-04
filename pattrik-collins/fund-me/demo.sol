@@ -5,13 +5,18 @@ import {AggregatorV3Interface} from "@chainlink/contracts/src/v0.8/interfaces/Ag
 
 contract Demo {
     
-    uint public minimumUsd = 5;
+    uint public minimumUsd = 5e18;
+    address[] public funders;
+    mapping( address funder => uint256 amountFunded) public addressToAmountFunded;
     
     function fund() public payable {
         // allow users to send money
         // have a minimum money to sent
-        require(msg.value > 1e18, "Didn't send enough ETH"); // 1e18 = 1ETH 
+        require( getConversionRate(msg.value) >= minimumUsd, "Didn't send enough ETH"); // 1e18 = 1ETH 
         // require statment revert the actions that have been done and send the remaining gas back
+
+        funders.push(msg.sender);
+        addressToAmountFunded[msg.sender] = addressToAmountFunded[msg.sender] + msg.value;
     }
      // function withdraw() public {}
 
