@@ -17,9 +17,14 @@ contract Demo {
         // require statment revert the actions that have been done and send the remaining gas back
 
         funders.push(msg.sender);
-        addressToAmountFunded[msg.sender] = addressToAmountFunded[msg.sender] + msg.value;
+        addressToAmountFunded[msg.sender] += msg.value;
     }
-     // function withdraw() public {}
+    
+    function withdraw() public {
+        for( uint256 funderIndex =0; funderIndex < funders.length; funderIndex++ ){
+            address funder = funders[funderIndex];
+            addressToAmountFunded[funder] = 0;
+        }
+    }
 
-    function getVersion() public {}
 }
