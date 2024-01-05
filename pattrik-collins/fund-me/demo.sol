@@ -25,6 +25,26 @@ contract Demo {
             address funder = funders[funderIndex];
             addressToAmountFunded[funder] = 0;
         }
+
+        // reseting an array
+        // widthdraw the funds
+
+        funders = new address[](0);
+        // actually widthdraw the funds
+
+        
+        // msg.sender if of type address
+        // payable(msg.sender) is of type payable address
+        // transfer 
+        payable(msg.sender).transfer(address(this).balance);
+
+        // send 
+        bool sendSuccess = payable(msg.sender).send(address(this).balance);
+        require(sendSuccess, 'send failed');
+
+        // call
+        ( bool callSuccess, ) = payable(msg.sender).call{ value: address(this).balance}('');
+         require(callSuccess, 'call failed');
     }
 
 }
