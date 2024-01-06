@@ -26,9 +26,8 @@ contract Demo {
         addressToAmountFunded[msg.sender] += msg.value;
     }
     
-    function withdraw() public {
-        require(msg.sender == owner,'Must be the Owner');
-
+    function withdraw() public onlyOwner {
+        
         for( uint256 funderIndex =0; funderIndex < funders.length; funderIndex++ ){
             address funder = funders[funderIndex];
             addressToAmountFunded[funder] = 0;
@@ -54,5 +53,11 @@ contract Demo {
         ( bool callSuccess, ) = payable(msg.sender).call{ value: address(this).balance}('');
          require(callSuccess, 'call failed');
     }
+    // modifier is allow us to create a keyword that we put right in the function
+    // decleration to add some functionality very quickly and easily to any function
 
+    modifier onlyOwner(){
+        require(msg.sender == owner, 'Sender is not a owner');
+        _;
+    }
 }
