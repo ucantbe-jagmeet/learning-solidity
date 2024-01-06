@@ -9,7 +9,13 @@ contract Demo {
     uint public minimumUsd = 5e18;
     address[] public funders;
     mapping( address funder => uint256 amountFunded) public addressToAmountFunded;
-    
+
+    address public owner;
+
+    constructor() {
+        owner = msg.sender;
+    }
+
     function fund() public payable {
         // allow users to send money
         // have a minimum money to sent
@@ -21,6 +27,8 @@ contract Demo {
     }
     
     function withdraw() public {
+        require(msg.sender == owner,'Must be the Owner');
+
         for( uint256 funderIndex =0; funderIndex < funders.length; funderIndex++ ){
             address funder = funders[funderIndex];
             addressToAmountFunded[funder] = 0;
@@ -36,11 +44,11 @@ contract Demo {
         // msg.sender if of type address
         // payable(msg.sender) is of type payable address
         // transfer 
-        payable(msg.sender).transfer(address(this).balance);
+        // payable(msg.sender).transfer(address(this).balance);
 
         // send 
-        bool sendSuccess = payable(msg.sender).send(address(this).balance);
-        require(sendSuccess, 'send failed');
+        // bool sendSuccess = payable(msg.sender).send(address(this).balance);
+        // require(sendSuccess, 'send failed');
 
         // call
         ( bool callSuccess, ) = payable(msg.sender).call{ value: address(this).balance}('');
