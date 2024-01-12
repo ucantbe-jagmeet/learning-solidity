@@ -69,4 +69,17 @@ contract Demo {
         }
         _;
     }
+
+    // what happens if someone sends this contract ETH without calling the fund function
+    // there are two special functions in receive() and fallback() to handle this
+
+    receive() external payable {
+        fund();
+     }
+
+     fallback() external payable {
+        fund();
+      }
+
+
 }
