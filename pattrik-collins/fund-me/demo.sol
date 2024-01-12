@@ -10,10 +10,13 @@ contract Demo {
     address[] public funders;
     mapping( address funder => uint256 amountFunded) public addressToAmountFunded;
 
-    address public owner;
-
+    address public immutable i_owner;
+    // we are writing owner as i_owner to define it is immutable
+    // after writing immutable we spend 21508 gas
+    // after writing non immutable we spend 23644 gas
+    // instead of storing it in contract we store it in the bytecode of the contract
     constructor() {
-        owner = msg.sender;
+        i_owner = msg.sender;
     }
 
     function fund() public payable {
@@ -57,7 +60,7 @@ contract Demo {
     // decleration to add some functionality very quickly and easily to any function
 
     modifier onlyOwner(){
-        require(msg.sender == owner, 'Sender is not a owner');
+        require(msg.sender == i_owner, 'Sender is not a owner');
         _;
     }
 }
