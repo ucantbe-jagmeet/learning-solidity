@@ -3,6 +3,8 @@ pragma solidity ^0.8.0;
 
 import { PriceConverter } from './PriceConvertor.sol';
 
+error NotOwner();
+
 contract Demo { 
     using PriceConverter for uint256;
     
@@ -60,7 +62,11 @@ contract Demo {
     // decleration to add some functionality very quickly and easily to any function
 
     modifier onlyOwner(){
-        require(msg.sender == i_owner, 'Sender is not a owner');
+        // require(msg.sender == i_owner, 'Sender is not a owner');
+        // for gas efficiency we can use revert and if statement
+        if(msg.sender != i_owner) {
+            revert NotOwner();
+        }
         _;
     }
 }
